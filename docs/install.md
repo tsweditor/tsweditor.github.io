@@ -54,6 +54,7 @@ If you cannot open `TS2Prototype.uproject`, Launch:
 project from there.
 
 ![EditorSplash](/img/EdSplash.png)
+
 When the loading screen looks like that the editor will be launching
 correctly.
 

@@ -22,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/tsweditor/editorDocs/blob/main',
+          editUrl: 'https://github.com/tsweditor/tsweditor.github.io/blob/main',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +52,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Docs',
           },
           {
-            href: 'https://github.com/tsweditor/editorDocs',
+            href: 'https://github.com/tsweditor',
             label: 'GitHub',
             position: 'right',
           },
@@ -83,8 +83,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'GitHub',
+                label: 'UE Repository',
                 href: 'https://github.com/tsweditor/UnrealEngine',
+              },
+              {
+                label: 'Docs Repository',
+                href: 'https://github.com/tsweditor/tsweditor.github.io',
               },
             ],
           },
