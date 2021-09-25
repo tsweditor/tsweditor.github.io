@@ -14,7 +14,7 @@ will show a **404** error.
 ## Downloading
 Releases for the editor can be found on the releases page in the
 GitHub repository **linked below** look for the release that has
-the tag 'Latest Release' and it clearly labeled as TSW.
+the tag 'Latest Release' and is clearly labeled as TSW.
 
 **[Editor Releases Page](https://github.com/tsweditor/UnrealEngine/releases/)**
 
@@ -23,7 +23,7 @@ that start with `UE-Editor` are needed. **Do not** download
 the files labeled as 'Source Code'. This will just download the standard
 unmodified 4.26 source.
 
-Occasionally an additional file may be included engine with `.Patch.zip`
+Occasionally an additional file may be included named `.Patch.zip`
 this will be for if there was a bug in the release or to transition to
 a newer build without needing to download the whole editor again.
 
