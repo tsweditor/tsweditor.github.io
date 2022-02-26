@@ -4,8 +4,11 @@ sidebar_position: 2
 
 # Open files from the game
 Assets in TSW are packaged into a file called a pak file. These files have the extension ‘.pak’ and are located in two folders:
-‘DLC’ – This folder contains any additional DLC for the game.
-‘Paks’ – This contains any core files and the three routes that come with the game (Bakerloo, Koln-Aachen, Sand Patch Grade).
+
+- ‘DLC’ – This folder contains any additional DLC for the game.
+
+- ‘Paks’ – This contains any core files and the three routes that come with the game (Bakerloo, Koln-Aachen, Sand Patch Grade).
+
 To read assets from pak files they must first be extracted, then the assets you want to use must be copied into the correct folder in the editor so that they are discovered when the editor starts up.
 
 import Video from '@site/src/components/Video';
