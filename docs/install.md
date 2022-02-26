@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Download and Install
-The total download size of the editor is around 5 GB so this
+The total download size of the editor is around 5 GB so this
 may take some time depending on internet speed.
 
 ## Getting Access
@@ -22,10 +22,6 @@ Under the 'Assets' section there are many files, only the files
 that start with `UE-Editor` are needed. **Do not** download
 the files labeled as 'Source Code'. This will just download the standard
 unmodified 4.26 source.
-
-Occasionally an additional file may be included named `.Patch.zip`
-this will be for if there was a bug in the release or to transition to
-a newer build without needing to download the whole editor again.
 
 ![Screenshot of a release](/img/install/release.png)
 
@@ -56,5 +52,11 @@ project from there.
 ![EditorSplash](/img/EdSplash.png)
 
 When the loading screen looks like that the editor will be launching
-correctly.
+correctly. The first time it is launched it'll normally take a while and pause a
+bit at 45%. This is because it must compile shaders on the first launch.
 
+Video showing how the editor can be installed:
+
+import Video from '@site/src/components/Video';
+
+<Video videoID="3seuZn5-yTM" />

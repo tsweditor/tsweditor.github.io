@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Read Cooked Content',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/burger-solid.svg').default,
     description: (
       <>
         The editor allows for reading of existing files that are shipped with TSW.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Based on UE4 Editor',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/compass-drafting-solid.svg').default,
     description: (
       <>
         The editor is simply a modification of the standard UE4 editor. With additional
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Still in development...',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/helmet-safety-solid.svg').default,
     description: (
       <>
         The tools aren't at a stable point yet and are still being worked on, so to begin
